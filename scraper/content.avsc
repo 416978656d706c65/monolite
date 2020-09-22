@@ -1,0 +1,9 @@
+{"namespace": "content.avro",
+ "type": "record",
+ "name": "Content",
+ "fields": [
+     {"name": "url", "type": "string"},
+     {"name": "desc", "type": "string"},
+     {"name": "raw",  "type": "string"}
+ ]
+}

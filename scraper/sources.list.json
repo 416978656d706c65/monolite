@@ -1,0 +1,26 @@
+[
+    {
+        "media": "New York Times - World",
+        "rss": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+    },
+    {
+        "media": "CNN - World",
+        "rss": "http://rss.cnn.com/rss/cnn_world.rss"
+    },
+    {
+        "media": "CNBC - World",
+        "rss": "https://www.cnbc.com/id/100727362/device/rss/rss.html"
+    },
+    {
+        "media": "BBC - World",
+        "rss": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+        "media": "RTHK - World",
+        "rss": "http://rthk9.rthk.hk/rthk/news/rss/e_expressnews_einternational.xml"
+    },
+    {
+        "media": "Inpendant UK - World",
+        "rss": "https://www.independent.co.uk/news/world/rss"
+    }
+]
