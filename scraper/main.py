@@ -6,7 +6,7 @@ import json
 import time
 import logging
 logging.getLogger().setLevel(logging.INFO)
-
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logging.info("Task starting")
 
 def fetch_content(feed):
@@ -28,7 +28,7 @@ def fetch_content(feed):
     client.close()
     return 0
 
-with open('sources.list.json') as json_file:
+with open('/home/orch/monolite/scraper/sources.list.json') as json_file:
     sources = json.load(json_file)
     logging.info("Running for: ")
     for source in sources:
